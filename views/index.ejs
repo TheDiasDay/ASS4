@@ -1,0 +1,30 @@
+<h3>Sign In</h3>
+
+<form action="/" method="POST">
+
+  <label for="username"><b>Username</b></label>
+  <input type="text" placeholder="Enter Username" name="username">
+
+  <label for="password"><b>Password</b></label>
+  <input type="password" placeholder="Enter Password" name="password">
+
+  <input type="submit" value="Login" class="btn">
+
+  <% if (typeof message !== 'undefined') { %>
+    <p><%= message %></p>
+  <% } %>
+
+</form>
+
+<p>If you don't have an account, <a href="/register">register now</a>.</p>
+
+    <br>
+    <div class="col-md-3 text-end">
+      <a href="/auth/google" type="button" class="btn btn-outline-primary me-2"
+          style="padding: 8px 16px;
+          background-color:white;
+          border-radius: 15px;
+          color: rgb(0, 0, 0);
+          cursor: pointer;
+          border: black  solid 2px;">Google Sign in</a>
+    </div>

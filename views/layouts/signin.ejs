@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= locals.title %></title>
+  <meta name="description" content="<%= locals.description %>">
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="text/javascript" defer src="/js/script.js"></script>
+</head>
+<body>
+  
+  
+  <div class="container">
+    <header class="header">
+      <a href="/dashboard" class="header__logo">Aqshacoin</a>
+    
+      <nav class="header__nav">
+        <ul>
+          <li>
+            <a href="/" class="">Home</a>
+          </li>
+        </ul>
+    
+      </nav>
+    
+    </header>
+    <main class="main">
+      <%- body %>
+    </main>
+    <footer class="footer">
+      %> IT-2207 • Dias Kenzhebaev
+    </footer>
+  </div>  
+
+</body>
+</html>
