@@ -1,0 +1,6 @@
+MONGODB_URI=mongodb://localhost:27017
+PORT = 3000
+JWT_SECRET=dd71a45e02dcea0a5fce3674124210f622f44a598e5cac31d2258857a76c4cb9
+GOOGLE_CLIENT_ID = 953672718481-5bpto9bqos6ui6lgd5rb7p9da3m0d08b.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET = 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
+GOOGLE_CALLBACK_URL = http://localhost:3000/google/callback
